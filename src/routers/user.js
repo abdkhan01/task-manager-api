@@ -4,6 +4,7 @@ const auth = require('../middleware/auth')
 const router = new express.Router()
 const {sendWelcomeEmail} = require('../emails/account')
 const multer = require('multer')
+const sharp = require('sharp')
 
 const upload = multer({
     
